@@ -55,8 +55,8 @@ Email: mungai.mbugua@student.moringaschool.com
 Contact: 0797950827
 
 ## Super User Credentials
-Username: Pendo
-Password: pendo123
+Username: 
+Password: 
 
 
 ## Live Link
