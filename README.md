@@ -55,8 +55,8 @@ Email: mungai.mbugua@student.moringaschool.com
 Contact: 0797950827
 
 ## Super User Credentials
-Username: 
-Password: 
+Username: mungai
+Password: foden
 
 
 ## Live Link
