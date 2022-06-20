@@ -1,7 +1,7 @@
 ## Neighborhood
 
 ## Author
-Abishag Maitha
+Mungai Mbugua
 
 ## Description
 This is a web application that allows users to be in the loop about everything happening intheir neighborhood. From contact information of different handyman to meeting announcements or even alerts.
