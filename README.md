@@ -29,9 +29,6 @@ A user will be able to:
 * Bootstrap
 * PostgreSQL
 
-## MIT LICENSE
-
-
 ## Author's Information
 Email: mungai.mbugua@student.moringaschool.com
 Contact: 0797950827
