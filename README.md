@@ -17,7 +17,7 @@ A user will be able to:
 * Only view details of a single neighborhood per login session.
 
 ## Project setup instructions
-* Clone the Repo from my github account: https://github.com/Abishag-Maitha/Neighborhood
+* Clone the Repo from my github account: 
 * Clone the all files to your local environment
 * Install Django and virtual environment. Activate the virtual envorinment
 * Install PostgreSQL
