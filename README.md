@@ -11,10 +11,10 @@ A user will be able to:
 * Sign in with the application to start using.
 * Set up their profile and a general location and neighborhood name.
 * Find a list of different businesses in their neighborhood.
-* Find Contact Information for the health department and Police authorities near their neighborhood.
+* Find contact information for the health department and Police authorities near their neighborhood.
 * Create Posts that will be visible to everyone in the neighborhood.
 * Change neighborhood by clicking 'Leave Hood' button.
-* Only view details of a single neighborhood per time.
+* Only view details of a single neighborhood per login session.
 
 ## Project setup instructions
 * Clone the Repo from my github account: https://github.com/Abishag-Maitha/Neighborhood
