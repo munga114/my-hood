@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from decouple import config,Csv
+from decouple import config
 import os
 import django_heroku
 import cloudinary
@@ -96,7 +96,7 @@ DATABASES = {
         }
 }
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = config('ALLOWED_HOSTS')
 
 cloudinary.config( 
   cloud_name =config('CLOUD_NAME'), 
