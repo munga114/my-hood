@@ -107,7 +107,7 @@ else:
        )
    }
 
-db_from_env = dj_database_url.confi
+db_from_env = dj_database_url.config
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS')
 
