@@ -13,7 +13,7 @@ class Neighbourhood(models.Model):
     occupants = models.PositiveIntegerField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='neighborhood')
     image = CloudinaryField('image')
-    descriptio = models.TextField()  
+    description = models.TextField()  
     health = models.IntegerField(null=True, blank=True ,default=0)
     
     class Meta:
