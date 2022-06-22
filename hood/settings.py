@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-from decouple import config
+from decouple import config,Csv
 import os
 import django_heroku
 import cloudinary
@@ -30,6 +30,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY =config('SECRET_KEY')
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -94,6 +95,8 @@ DATABASES = {
         'PASSWORD':config('DB_PASSWORD'),
         }
 }
+
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 cloudinary.config( 
   cloud_name =config('CLOUD_NAME'), 
